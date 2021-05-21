@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
     <main>
-        <!-- Imagenes y pie de foto -->
-        <figure>
-            <figcaption>
-            <img src="./img/edificiomoderno.jpg" alt="edicicio moderno">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vulputate aenean mi amet eget ornare facilisi. Feugiat cursus sapien, facilisis morbi tristique. Id pretium posuere praesent odio massa justo. Ut nunc hendrerit tellus, venenatis massa interdum elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut lectus.
-                    Tortor, mattis velit justo dui, accumsan est urna. Sed malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat convallis amet. Facilisi mauris aliquam cursus a.</p>
-             </figcaption>
-        </figure>
-        <figure>
-            <figcaption>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vulputate aenean mi amet eget ornare facilisi. Feugiat cursus sapien, facilisis morbi tristique. Id pretium posuere praesent odio massa justo. Ut nunc hendrerit tellus, venenatis massa interdum elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut lectus.
-                    Tortor, mattis velit justo dui, accumsan est urna. Sed malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat convallis amet. Facilisi mauris aliquam cursus a.
-                </p>
-                        <img src="./img/edificiosypalmeras.jpg" alt="edificio y palmeras">
-            </figcaption>
-        </figure>
+      <!-- Imagenes y pie de foto -->
+      <figure class="zonaSuperior__edificio">
+        <figcaption class="zonaSuperior__edicicio2">
+          <picture>
+            <source class="zonasuperior__fotos" srcset="
+                            ./img/edicicio1x.jpg 1x,
+                            ./img/edificio@2x.jpg 2x,
+                            ">
+          <img class="zonasuperior__foto" src="" alt="edicicio moderno"/>
+          </picture>
+          <p class="zonasuperior__texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+            vulputate aenean mi amet eget ornare facilisi. Feugiat cursus
+            sapien, facilisis morbi tristique. Id pretium posuere praesent odio
+            massa justo. Ut nunc hendrerit tellus, venenatis massa interdum
+            elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed
+            sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut
+            lectus. Tortor, mattis velit justo dui, accumsan est urna. Sed
+            malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat
+            convallis amet. Facilisi mauris aliquam cursus a.
+          </p>
+        </figcaption>
+      </figure>
+      <figure class="zonainferior__edificioypalmeras">
+        <figcaption class="zonainferior__edificiosypalmeras2">
+          <p class="zonainferior__ediciosypalmeras__texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+            vulputate aenean mi amet eget ornare facilisi. Feugiat cursus
+            sapien, facilisis morbi tristique. Id pretium posuere praesent odio
+            massa justo. Ut nunc hendrerit tellus, venenatis massa interdum
+            elit, dictumst. Dignissim enim egestas lacus rutrum sagittis. Sed
+            sed pellentesque ut fermentum mauris. Nunc gravida risus eget ut
+            lectus. Tortor, mattis velit justo dui, accumsan est urna. Sed
+            malesuada feugiat enim, quam. Feugiat sit euismod eu leo volutpat
+            convallis amet. Facilisi mauris aliquam cursus a.
+          </p>
+          <picture>
+            <source srcset="
+            ./img/palmeras1x.jpg 1x,
+            ./img/palmeras@2x.jpg 2x,
+                     ">
 
-
+          <img src="" alt="edificio y palmeras"/>
+          
+          </picture>
+      </figure>
     </main>
-</body>
+  </body>
 </html>
