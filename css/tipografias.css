@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27);
+
+:root{
+    --font-global:18px;
+    --font-family-parrafo:"Roboto";
+    --font-weight-parrafo:400;
+    --font-weight-titulo:700;
+}
+
+.header__nav a {
+    margin: 0 40px;
+    color: var(--color-nav);
+    font-weight: var(--font-weight-parrafo);
+    font-family: var(--font-family-parrafo);
+}

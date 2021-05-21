@@ -8,26 +8,67 @@
   padding: 0 40px;
 }
 
-
-
 .zonaSuperior__edificio {
-    display: flex;
+  display: flex;
+  align-items: center;
 }
-
 
 .zonasuperior__foto {
 }
 
-
 .zonasuperior__texto {
+  padding: 20px;
 }
 .zonainferior__edificioypalmeras {
+  display: flex;
+  align-items: center;
 }
 
 .zonainferior__ediciosypalmeras__texto {
+  padding: 20px;
+  font-family: ;
 }
 .zonaInferior__foto {
 }
+.links{
+  display: flex;
+  
+}
 
 
 
+.redes {
+  flex-grow: 0.2;
+}
+.redes__Facebook {
+}
+.redes__Pinteres {
+}
+.redes__Twitter {
+
+}
+.acerca {
+  flex-grow: 2;
+}
+.acerca__garantia {
+}
+.acerca__historia {
+}
+.acerca__inversores {
+}
+
+}
+.terminos {
+  flex-grow: 1;
+}
+.terminos__avisos {
+}
+.terminos__condiciones {
+}
+.terminos__politica {
+}
+.terminos__uso {
+}
+.copyright {
+  text-align: center;
+}

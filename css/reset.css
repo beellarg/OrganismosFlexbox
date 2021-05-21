@@ -1,4 +1,7 @@
 /* Etiquetas */
+*{
+  box-sizing: border-box;
+}
 header {
   display: flex;
   align-items: center;
@@ -9,11 +12,37 @@ a {
   text-decoration: none;
   color: var(--colorTexto);
 }
+ul{
+  list-style-type: none;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
 
 footer {
-  display: flex;
- padding: 724px;
+  padding: 20px;
+ 
+  
 }
+
+h6, h5{
+  color: white;
+  text-decoration: none;
+}
+h5,ul{
+  margin-top: 0;
+  
+}
+h6{
+  margin-bottom: 0;
+}
+
+
 
 
 
