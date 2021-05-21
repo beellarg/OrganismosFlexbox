@@ -1,11 +1,33 @@
 /* clases */
-.header__nav{
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-
-    }
-.header__nav a{
-    padding: 0 40px;
-    
+.header__nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
+.header__nav a {
+  padding: 0 40px;
+}
+
+
+
+.zonaSuperior__edificio {
+    display: flex;
+}
+
+
+.zonasuperior__foto {
+}
+
+
+.zonasuperior__texto {
+}
+.zonainferior__edificioypalmeras {
+}
+
+.zonainferior__ediciosypalmeras__texto {
+}
+.zonaInferior__foto {
+}
+
+
+
