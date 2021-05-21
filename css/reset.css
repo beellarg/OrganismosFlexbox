@@ -12,11 +12,8 @@ a {
 
 footer {
   display: flex;
- 
+ padding: 724px;
 }
 
-footer{
-  padding: 724px;
-}
 
 
